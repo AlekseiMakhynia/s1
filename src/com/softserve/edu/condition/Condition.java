@@ -17,6 +17,7 @@ public class Condition {
 
 		System.out.println("compare test: ");
 		int t = 5, s = 4, v = 7;
+		System.out.println("proscent 7%5: "+ (double)(v%t));
 		System.out.println(t > s && t > v || s < v);
 		System.out.println((t < v || s > v) && t < s);
 
